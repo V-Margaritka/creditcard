@@ -1,0 +1,131 @@
+body {
+  background-color: rgb(37,47,57); /* цвет фона */
+}
+.centering {
+  left: 50%;
+  right: 50%;
+}
+.rule-for-cards {
+}
+.card-back-side {
+  width: 390px; /* ширина */
+  height: 230px; /* высота */
+  background-color: rgb(21,112,89); /* цвет карты */
+  border-radius: 8px; /* закругление углов карты */
+  font-family: sans-serif; /* шрифт */
+  border-color: rgb(10,40,35); /* Цвет границы */
+  border-style: solid; /* Стиль границы */
+  border-width: 1px; /* Задает толщину границы */
+  position: absolute; /* расп-ние блока относительно окна браузера или других объектов на стр. */
+  top: -70px;  /* Положение от верхнего края */
+  bottom: 0; /* Расстояние от нижнего края окна браузера */
+  left: 370px; /* Положение от левого края */
+  right: 0; /* Положение от правого края */
+  margin: auto; /* Величина отступа от каждого края элемента */
+}
+.black {
+  width: auto; /* ширина */
+  height: 48px; /* высота */
+  background-color: rgb(32,32,32);
+  margin-top: 20px;
+}
+.paragraph-one p {
+  text-align: right; /* выравнивание */
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding-right: 40px;
+}
+.white-stripe {
+  width: 365px; /* ширина */
+  height: 48px; /* высота */
+  background-color: rgb(255,255,255);
+  margin-top: 0;
+  border-radius: 4px; /* скругление углов */
+  border-color: rgb(166,166,166); /* Цвет границы */
+  border-style: solid; /* Стиль границы */
+  border-width: 1px; /* Задает толщину границы */
+}
+.XXXX input {
+  width: 60px;
+  height: 30px;
+  color: rgb(27,87,63);
+  font-size: 20px; /* размер шрифта */
+  font-weight: 300;
+  padding-right: 10px;
+  border-radius: 4px; /* скругление углов */
+  border-color: rgb(166,166,166); /* Цвет границы */
+  border-style: solid; /* Стиль границы */
+  border-width: 1px; /* Задает толщину границы */
+}
+.XXXX {
+  font-family: sans-serif;
+  color: rgb(10,40,35);
+  padding-right: 20px;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: right;
+  line-height:48px;
+}
+.card-front-side {
+  width: 340px; /* ширина */
+  height: 180px; /* высота */
+  background-color: rgb(58,146,119); /* цвет карты */
+  border-radius: 8px; /* закругление углов карты */
+  font-family: sans-serif; /* шрифт */
+  padding: 25px; /* Поля вокруг текста */
+  border-color: rgb(10,40,35); /* Цвет границы */
+  border-style: solid; /* Стиль границы */
+  border-width: 1px; /* Задает толщину границы */
+  position: absolute; /* расп-ние блока относительно окна браузера или других объектов на стр. */
+  top: 0;  /* Положение от верхнего края */
+  bottom: 0; /* Расстояние от нижнего края окна браузера */
+  left: 0; /* Положение от левого края */
+  right: 0; /* Положение от правого края */
+  margin: auto; /* Величина отступа от каждого края элемента */
+}
+h1 {
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Verdana, sans-serif;
+  text-align: left; /* расположение */
+  font-weight: 500; /* насыщенность шрифта */
+  line-height: 10px;
+}
+.paragraph-two {
+  text-align: left;
+}
+p {
+  color: white;
+  font-size: 15px; /* размер шрифта */
+  font-weight: 300; /* насыщенность шрифта */
+  line-height: 20px; /* высота строки */
+}
+.card-number input {
+  width: 73px;
+  height: 35px;
+  font-size: 20px;
+  margin-right: 1%; /* Отступ справа */
+  border-radius: 4px; /* скругление углов */
+  border-color: rgb(27,87,63); /* Цвет границы */
+  border-style: solid; /* Стиль границы */
+  border-width: 1px; /* Задает толщину границы */
+  margin-top: -25px;
+}
+.select {
+width: 60px;
+height: 38px;
+font-size: 20px;
+border-radius: 4px; /* скругление углов */
+border-color: rgb(27,87,63); /* Цвет границы */
+border-style: solid; /* Стиль границы */
+border-width: 1px; /* Задает толщину границы */
+}
+td {
+  color: white;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 80%;
+}
+.table {
+  margin-top: 20px;
+}
