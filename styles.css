@@ -27,7 +27,7 @@ body {
   background-color: rgb(32,32,32);
   margin-top: 20px;
 }
-.card-back-side .paragraph-one p {
+.card-back-side .cvc-title p {
   text-align: right; /* выравнивание */
   margin-top: 20px;
   margin-bottom: 0;
@@ -42,20 +42,24 @@ body {
   margin-top: 0;
   border-radius: 4px; /* скругление углов */
 }
-.card-back-side .XXXX {
+.card-back-side .white-stripe .cvc-code {
   color: rgb(10,40,35);
   padding-right: 20px;
   font-weight: 300;
   text-align: right;
   line-height: 48px;
 }
-.card-back-side .XXXX input {
-  width: 60px;
-  height: 30px;
-  color: rgb(27,87,63);
+.card-back-side .white-stripe .cvc-code input {
+  width: 65px;
+  height: 33px;
+  color: rgb(100,98,95);
+  border: 1px solid rgb(100,98,95);
   font-weight: 300;
-  padding-right: 10px;
+  padding-right: 5px;
   border-radius: 4px; /* скругление углов */
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
 }
 .card-front-side {
   width: 340px; /* ширина */
@@ -70,7 +74,7 @@ body {
   font-weight: 500; /* насыщенность шрифта */
   line-height: 10px;
 }
-.card-front-side .paragraph-two {
+.card-front-side .card-number-title {
   text-align: left;
 }
 .card-front-side p {
@@ -85,7 +89,10 @@ body {
   margin-right: 1%; /* Отступ справа */
   border-radius: 4px; /* скругление углов */
   border: 1px solid rgb(27,87,63);
+  color: rgb(100,98,95);
   margin-top: -25px;
+  font-size: 25px;
+  text-align: center;
 }
 .card-front-side .select {
   width: 60px;
@@ -93,6 +100,7 @@ body {
   font-size: 20px;
   border-radius: 4px; /* скругление углов */
   border: 1px solid rgb(27,87,63);
+  color: rgb(100,98,95);
 }
 .card-front-side td {
   color: white;
