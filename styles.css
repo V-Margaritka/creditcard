@@ -1,25 +1,32 @@
+html, body {
+  margin: 0;
+  height:100%;
+}
 body {
   background-color: rgb(37,47,57); /* цвет фона */
   font-family: sans-serif; /* шрифт */
   font-size: 20px;
   color: white;
 }
+.center {
+  position: relative;
+  width: 582px;
+  height: 260px;
+  top: 50%;
+  left: 50%;
+  margin-left: -291px;
+  margin-top: -130px;
+}
 .card {
   border: 1px solid rgb(27,87,63);
   border-radius: 8px;
   position: absolute;
-  bottom: 0; /* Расстояние от нижнего края окна браузера */
-  right: 0; /* Положение от правого края */
-  margin: auto; /* Величина отступа от каждого края элемента */
-  top: 0;  /* Положение от верхнего края */
-  left: 0; /* Положение от левого края */
 }
 .card-back-side {
   width: 390px; /* ширина */
   height: 230px; /* высота */
   background-color: rgb(34,120,99); /* цвет карты */
-  top: -70px;  /* Положение от верхнего края */
-  left: 370px; /* Положение от левого края */
+  left: 190px;
 }
 .card-back-side .black-line {
   width: auto; /* ширина */
@@ -66,6 +73,7 @@ body {
   height: 180px; /* высота */
   background-color: rgb(61,150,119); /* цвет карты */
   padding: 25px;
+  margin-top: 30px;
 }
 .card-front-side h1 {
   color: white;
